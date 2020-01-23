@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 from IPython.display import display
+from matplotlib import pyplot as plt
 from sklearn.pipeline import make_pipeline
 from imblearn.pipeline import make_pipeline as make_pipeline_imb
 from imblearn.over_sampling import SMOTE
@@ -227,7 +228,6 @@ injury_clean.shape
 ######################## DESCRIPTIVE STATISTICS ##############################
 
 #Count plots of variables
-from matplotlib import pyplot as plt
 var = ["Age_group","Injury_sev","Urban","Light_condition","Sex"]
 
 for v in var:
