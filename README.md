@@ -1,8 +1,11 @@
 # Predicting the road accident severity depending on weather, vehicle, and road conditions with ML models using CRISP-DM methodology
-
+![crisp](https://user-images.githubusercontent.com/56169217/74563646-dd6ba580-4f32-11ea-8c6b-b6ff475eb661.PNG)
 
 # US-accident-severity
 One of the primary objectives of the National Highway Traffic Safety Administration (NHTSA) is to reduce the human toll and property damage that motor vehicle traffic crashes inflict on our society. Crashes each year result in thousands of lives lost, hundreds of thousands of injured victims, and billions of dollars in property damage. Accurate data are required to support the development, implementation, and assessment of highway safety programs aimed at reducing this toll. NHTSA uses data from many sources, including the Crash Report Sampling System (CRSS). CRSS is a sample of police-reported crashes involving all types of motor vehicles, pedestrians, and cyclists, ranging from property-damage-only crashes to those that result in fatalities. CRSS is used to estimate the overall crash picture, identify highway safety problem areas, measure trends, drive consumer information initiatives, and form the basis for cost and benefit analyses of highway safety initiatives and regulations. The CRSS obtains its data from a nationally representative probability sample selected from the more than seven million police-reported crashes which occur annually. Although various sources suggest that there are many more crashes that are not reported to the police, the majority of these unreported crashes involve only minor property damage and no significant personal injury. By restricting attention to police-reported crashes, the CRSS concentrates on those crashes of greatest concern to the highway safety community and the general public. 
+
+![car-accident-white-background-flat-style-vector-illustration-95784387](https://user-images.githubusercontent.com/56169217/74563674-e9effe00-4f32-11ea-8fbb-1906d8e90141.jpg)
+
 
 # Determining Business Objectives
 To predict and identify crucial factors that contribute traffic crash fatalities
