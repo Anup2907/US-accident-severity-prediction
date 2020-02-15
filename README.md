@@ -32,7 +32,7 @@ Vehicle: (97625, 87) rows and columns
 
 Distract file: Person demographic details. 
 
-Vehicle: (97657, 11) rows and columns
+Distract: (97657, 11) rows and columns
 
 Person file: Age, Alcohol Test Status, Ejection, Injury Severity, Sex. 
 
