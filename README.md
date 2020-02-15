@@ -2,6 +2,7 @@
 <img src = https://user-images.githubusercontent.com/56169217/74563646-dd6ba580-4f32-11ea-8c6b-b6ff475eb661.PNG width="400" height="400" />
 
 **US-accident-severity**
+
 One of the primary objectives of the National Highway Traffic Safety Administration (NHTSA) is to reduce the human toll and property damage that motor vehicle traffic crashes inflict on our society. Crashes each year result in thousands of lives lost, hundreds of thousands of injured victims, and billions of dollars in property damage. Accurate data are required to support the development, implementation, and assessment of highway safety programs aimed at reducing this toll. NHTSA uses data from many sources, including the Crash Report Sampling System (CRSS). CRSS is a sample of police-reported crashes involving all types of motor vehicles, pedestrians, and cyclists, ranging from property-damage-only crashes to those that result in fatalities. CRSS is used to estimate the overall crash picture, identify highway safety problem areas, measure trends, drive consumer information initiatives, and form the basis for cost and benefit analyses of highway safety initiatives and regulations. The CRSS obtains its data from a nationally representative probability sample selected from the more than seven million police-reported crashes which occur annually. Although various sources suggest that there are many more crashes that are not reported to the police, the majority of these unreported crashes involve only minor property damage and no significant personal injury. By restricting attention to police-reported crashes, the CRSS concentrates on those crashes of greatest concern to the highway safety community and the general public. 
 ![car-accident-white-background-flat-style-vector-illustration-95784387](https://user-images.githubusercontent.com/56169217/74563674-e9effe00-4f32-11ea-8fbb-1906d8e90141.jpg)
 
@@ -90,6 +91,8 @@ Let's look at the below table to see how these both models performed:
 
 From the above results, SMOTE gave better results overall comparing with the Nearmiss.
 
+**Model Evaluation**
+
 Now, let's evaluate with K- fold cross validation, I took 4 folds and built a pipeline to run each model with SMOTE. Let's see how we got the results after cross validation 
 
 ![k-fold](https://user-images.githubusercontent.com/56169217/74594079-dbb7e580-4ff7-11ea-944f-0b28b6448649.PNG)
@@ -100,7 +103,11 @@ Let's look at the feature importances from RandomForest Model to know what are t
 
 ![feature](https://user-images.githubusercontent.com/56169217/74595281-46bbe900-5005-11ea-9190-75894fe79903.PNG)
 
-From the feature importance plot, we can conclude that Vehicle age, Number of persons injured, Weather conditions, Manner_of_collision, Light conditions are the top features that are main reasons for injury severity.
+**Conclusion**
+
+From the feature importance plot, we can conclude that Vehicle age, Number of persons injured, Weather conditions, Manner_of_collision, Light conditions are the top 5 features that are contributing to cause injury severity. It's important to check the vehicle conditions thoroughly and be careful while driving in adverse weather conditions.
+
+Please refer my Python notebook for more details - https://github.com/Anup2907/US-accident-severity/blob/master/US_Accident_Severity.ipynb
 
 
 
