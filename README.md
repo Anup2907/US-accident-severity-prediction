@@ -64,9 +64,49 @@ Checking if there are any outliers in the features Vehicle_age and Num_of_injure
 
 ![box_plot](https://user-images.githubusercontent.com/56169217/74579645-b8daf200-4f61-11ea-8482-86b3ec922568.PNG)
 
-There are few vehicles of age more than 25 years old. As per the US law, any vehicle which is more than 25 years old should go through additional testing and federalization process. But here in the box plots we cannot remove the outliers as old vehicles might be the reason for high injury severity during accidents. Also sometimes due to mass collision of vehicles, especially due to snow number of injured persons are high. Hence we are not removing any further data.
+There are few vehicles of age more than 25 years old. As per the US law, any vehicle which is more than 25 years old should go through additional testing and federalization process. But here in the box plots we cannot remove the outliers as old vehicles might be the reason for high injury severity during accidents. Also sometimes due to mass collision of vehicles, especially due to extreme weather conditions, number of injured persons could be high. Hence we are not removing any further data.
 
 **Modeling**
+
+As the problem is classification problem, I came up with the following three models:
+
+1. Random Forest Classifier
+2. Decision Tree Classifier
+3. K-nearest Neighbours 
+
+The results are:
+
+![model](https://user-images.githubusercontent.com/56169217/74582388-a328f500-4f80-11ea-824d-27b796feeeca.PNG)
+
+As it is evident that the dependent variable "injury_sev" is not balanced, SMOTE technique which upsamples the minority class and Nearmiss technique which downsamples the majority class, and these techniques are used with three models to see accuracy, precision and recall values. Hence built a pipeline for SMOTE/Nearmiss and models. 
+
+1. RandomForest using SMOTE/Nearmiss
+2. Decision Tree using SMOTE/Nearmiss
+3. K-Nearest Neighbours using SMOTE/Nearmiss
+
+Let's look at the below table to see how these both models performed:
+
+![smote_near](https://user-images.githubusercontent.com/56169217/74593926-3ea87d00-4ff6-11ea-82f0-5e11184ebf6f.PNG)
+
+From the above results, SMOTE gave better results overall comparing with the Nearmiss.
+
+Now, let's evaluate with K- fold cross validation, I took 4 folds and built a pipeline to run each model with SMOTE. Let's see how we got the results after cross validation 
+
+![k-fold](https://user-images.githubusercontent.com/56169217/74594079-dbb7e580-4ff7-11ea-944f-0b28b6448649.PNG)
+
+Overall SMOTE Random Forest Classifier stands out to be the best model in terms of accuracy, precision and recall.
+
+Let's look at the feature importances from RandomForest Model to know what are the important features that are contributing for injury severity:
+
+![feature](https://user-images.githubusercontent.com/56169217/74595281-46bbe900-5005-11ea-9190-75894fe79903.PNG)
+
+From the feature importance plot, we can conclude that Vehicle age, Number of persons injured, Weather conditions, Manner_of_collision, Light conditions are the top features that are main reasons for injury severity.
+
+
+
+
+
+
 
 
 
