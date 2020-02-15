@@ -21,13 +21,22 @@ To build suitable models to predict the severity of fatalities.
 To recommend precautionary initiative based on our results. 
 
 **Business and Data Understanding**
-Accident file: Alcohol Involved in Crash, Atmospheric Conditions, Crash time (Hour), First Harmful Event, Light Condition, Manner of Collision, Number of Injured in Crash. It has Accident: (54969, 51) rows and columns
 
-Vehicle file: Areas of Impact- Initial Contact Point, Body Type, Driver Drinking in Vehicle, Hit and Run, Number of Injured in Vehicle, Maximum Injury Severity in Vehicle, Most Harmful Event, Vehicle Model Year. It has Vehicle: (97625, 87) rows and columns
+Accident file: Alcohol Involved in Crash, Atmospheric Conditions, Crash time (Hour), First Harmful Event, Light Condition, Manner of Collision, Number of Injured in Crash. 
 
-Distract file: Person demographic details. It has Vehicle: (97625, 87) rows and columns
+Accident: (54969, 51) rows and columns
 
-Person file: Age, Alcohol Test Status, Ejection, Injury Severity, Sex. It has Person: (138913, 61) rows and columns. 
+Vehicle file: Areas of Impact- Initial Contact Point, Body Type, Driver Drinking in Vehicle, Hit and Run, Number of Injured in Vehicle, Maximum Injury Severity in Vehicle, Most Harmful Event, Vehicle Model Year. 
+
+Vehicle: (97625, 87) rows and columns
+
+Distract file: Person demographic details. 
+
+Vehicle: (97657, 11) rows and columns
+
+Person file: Age, Alcohol Test Status, Ejection, Injury Severity, Sex. 
+
+Person: (138913, 61) rows and columns. 
 
 Joining Accident with Vehicle using primary key "Accident case number" - (Right Join gives all the vehicle information involved in the accidents)
 
