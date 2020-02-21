@@ -68,7 +68,7 @@ Checking if there is any relationship between the vehicle age and the nuber of p
 
 ![veh_age_num_of_inj](https://user-images.githubusercontent.com/56169217/74579009-77484800-4f5d-11ea-81d5-48e05c98a330.PNG)
 
-There is no clear non-linear relation between vehicle age and number of injured persons
+There is no clear linear relation between vehicle age and number of injured persons
 
 Checking if there are any outliers in the features Vehicle_age and Num_of_injured:
 
