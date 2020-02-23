@@ -7,15 +7,18 @@ One of the primary objectives of the National Highway Traffic Safety Administrat
 ![car-accident-white-background-flat-style-vector-illustration-95784387](https://user-images.githubusercontent.com/56169217/74563674-e9effe00-4f32-11ea-8fbb-1906d8e90141.jpg)
 
 **Determining Business Objectives**
+
 To predict and identify crucial factors that contribute Person Injury severity.
 To investigate the factors that can minimize accidents.
 To identify and recommend issues that can improve safety and overall traffic situation.
 
 **Assessing the Situation**
+
 Around 40,000 people lost their lives to car crashes in 2018.
 About 4.5 million people were seriously injured in crashes last year.
 
 **Data Mining Goals**
+
 To prepare data to achieve best accurate result.
 To build suitable models to predict the severity of fatalities.
 To recommend precautionary initiative based on our results. 
