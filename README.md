@@ -61,7 +61,7 @@ After reading the meta data description and brainstorming about every feature fr
 
 ![Capture](https://user-images.githubusercontent.com/56169217/74565896-d98e5200-4f37-11ea-9821-d3cbf7c2f91a.PNG)
 
-Vehicle age and Age group are newly created features. Vehicle age is obtained by subtracting current year minus vehicle model year. Age group is obtained by fixed width numerical binning.
+Vehicle age and Age group are newly created features. Vehicle age is obtained by subtracting current year minus vehicle model year. Age group is obtained by fixed width numerical binning which will be further explained in feature engineering.
 
 Considered the dependent variable "Injury_sev" as binary. classified as high severity and low severity. Filtered the data that has the driver seat position front left side because US has most vehicles with driver seat left side. That gave us finally with 26367 rows and 24 columns.
 
