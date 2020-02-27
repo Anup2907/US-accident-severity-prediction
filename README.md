@@ -25,11 +25,11 @@ To recommend precautionary initiative based on our results.
 
 **Business and Data Understanding**
 
-Accident file: Alcohol Involved in Crash, Atmospheric Conditions, Crash time (Hour), First Harmful Event, Light Condition, Manner of Collision, Number of Injured in Crash. 
+----------------------------------------
+**Accident: (54969, 51) rows and columns**
+----------------------------------------
 
-----------------------------------------
-Accident: (54969, 51) rows and columns
-----------------------------------------
+Accident file: Alcohol Involved in Crash, Atmospheric Conditions, Crash time (Hour), First Harmful Event, Light Condition, Manner of Collision, Number of Injured in Crash. 
 
 Vehicle file: Areas of Impact- Initial Contact Point, Body Type, Driver Drinking in Vehicle, Hit and Run, Number of Injured in Vehicle, Maximum Injury Severity in Vehicle, Most Harmful Event, Vehicle Model Year. 
 
