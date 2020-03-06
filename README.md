@@ -125,7 +125,7 @@ Let's look at the feature importances from RandomForest Model to know what are t
 
 **Conclusion**
 
-From the feature importance plot, we can conclude that Vehicle age, Number of persons injured, Weather conditions, Manner_of_collision, Light conditions are the top 5 features that are contributing to cause injury severity. It's important to check the vehicle conditions thoroughly and be careful while driving in adverse weather conditions.
+From the feature importance plot, we can conclude that Vehicle age, Number of persons injured, Weather and light conditions, Manner_of_collision, Light conditions are the top 5 features that are contributing to cause injury severity. It's important to check the vehicle conditions thoroughly and be careful while driving in adverse weather conditions.
 
 Please refer my Python notebook for more details - https://github.com/Anup2907/US-accident-severity/blob/master/US_Accident_Severity.ipynb
 
