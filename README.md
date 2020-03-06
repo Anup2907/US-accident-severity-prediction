@@ -67,7 +67,7 @@ Considered the dependent variable "Injury_sev" as binary. classified as high sev
 
 We have classified unknown/notrecorded/NA categories in all features as "other" category. Also some of the features has many categories which we will end up with many features during one hot encoding, hence we have categorized as classes combining some of the sub categories. Example: Light_Condition has dark_lowlight, dark_heavylight, dark_nolight; classified as category "dark".
 
-There are very less percentage of rows (1.64%) with missing data which we have dropped as imputing would change the variation of features. 
+There are very less percentage of rows (1.64%) with missing data which we have dropped as imputing would change the distribution (mean and variance) of features. 
 
 **Data Exploration**
 
