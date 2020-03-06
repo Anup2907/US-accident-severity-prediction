@@ -65,7 +65,7 @@ Vehicle age and Age group are newly created features. Vehicle age is obtained by
 
 Considered the dependent variable "Injury_sev" as binary. classified as high severity and low severity. Filtered the data that has the driver seat position front left side because US has most vehicles with driver seat left side. That gave us finally with 26367 rows and 24 columns.
 
-We have classified the unknown/notrecorded/NA categories as "other" category that has bad data. Also some of the features has many categories which we will end up with many features during one hot encoding, hence we have categorized as classes combining some of the sub categories. Example: Light_Condition has dark_lowlight, dark_heavylight, dark_nolight as category "dark".
+We have classified unknown/notrecorded/NA categories in all features as "other" category. Also some of the features has many categories which we will end up with many features during one hot encoding, hence we have categorized as classes combining some of the sub categories. Example: Light_Condition has dark_lowlight, dark_heavylight, dark_nolight; classified as category "dark".
 
 There are very less percentage of rows (1.64%) with missing data which we have dropped as imputing would change the variation of features. 
 
